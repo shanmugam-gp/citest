@@ -12,4 +12,10 @@ class Crud extends CI_Controller
 	{
 	  echo "works good";
 	}
+	
+	public function world()
+	{
+		echo "again testing";
+	}
+	
 }
