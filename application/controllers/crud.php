@@ -17,5 +17,11 @@ class Crud extends CI_Controller
 	{
 		echo "again testing";
 	}
+       
+        public function helloworld()
+	{
+	  $this->hello()." ".$this->world();
+	}
+
 	
 }
